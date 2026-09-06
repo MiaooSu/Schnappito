@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Pixelify+Sans:wght@400..700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="StyleSheets/camera.css" />
+</head>
+<body>
+  <div class="chateau-container" id="booth">
+    <div class="bubble-container"></div>
+    <div class="countdown-timer">3</div>
+    <canvas id="esquisseFinale" width="1041" height="1484"></canvas>
+    <img class="frame" src="Assets/Mer.png" alt="frame" style="z-index: 0"/>
+    <video id="liveVideo" autoplay playsinline muted style="z-index: 1"></video>
+    <img class="frame" src="Assets/Cadre.png" alt="frame" style="z-index: 2" />
+  </div>
+
+  <div class="controls">
+    <button id="takePhoto">Cheese</button>
+  </div>
+
+  <script src="Javascripts/camera.js"></script>
+</body>
+</html>

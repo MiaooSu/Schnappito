@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Pixelify+Sans:wght@400..700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="StyleSheets/final.css" />
+</head>
+<body>
+
+  <div class="heading-content">
+    <div class="sticker-container">
+      <div class="sticker-btns">
+        <button id="addCouronne" class="sticker-btn couronne-btn">Add Couronne</button>
+        <button id="addBouffonne" class="sticker-btn bouffonne-btn">Add Bouffonne</button>
+        <button id="addFleur" class="sticker-btn fleur-btn">Add Fleur</button>
+        <button id="addPoulpy" class="sticker-btn poulpy-btn">Add Poulpy</button>
+        <button id="addFeu" class="sticker-btn feu-btn">Add Feu</button>
+        <button id="encore" class="sticker-btn encore-btn">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="canvasContainer">
+    <canvas id="esquisseFinale" width="1041" height="1484"></canvas>
+  </div>
+
+  <div class="button-container">
+    <button id="downloadBtn">Télécharger</button>
+    <button id="homeBtn" >Appuie</button>
+  </div>
+
+  <script type="module" src="Javascripts/final.js"></script>
+</body>
+</html>
